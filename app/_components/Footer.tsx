@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import Link from "next/link";
 
 type Props = {};
 
@@ -21,24 +22,24 @@ const Footer = (props: Props) => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="/" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:text-white">
+                <Link href="/services" className="hover:text-white">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog" className="hover:text-white">
+                <Link href="/blog" className="hover:text-white">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-white">
+                <Link href="/contact" className="hover:text-white">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
