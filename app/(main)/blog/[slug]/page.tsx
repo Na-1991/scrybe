@@ -4,13 +4,13 @@ import { notFound } from 'next/navigation'
 
 type Props = {params:Promise<{slug:string}>}
 
-const page =async ({params}: Props) => {
+const page = async ({params}: Props) => {
   const {slug} = await params
-  const service = data.services.find(service=>service.slug===slug)
-  if(!service) notFound()
-
+  console.log('slug')
+  const blog = data.blogs.find(blog=>blog.slug===slug)
+  if(!blog) return notFound()
   return (
-    <div className='min-h-screen'>{service.title}</div>
+    <div className='min-h-screen'>{blog.title}</div>
   )
 }
 

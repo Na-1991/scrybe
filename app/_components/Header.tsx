@@ -7,12 +7,12 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="flex items-center  py-4">
+    <header className="flex items-center  py-4 justify-between">
       <Link href={"/"} className="font-[500]">
         Logo
       </Link>
 
-      <div className="mx-auto">
+      <div className="">
         <NavLinks />
       </div>
     </header>

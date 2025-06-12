@@ -11,16 +11,16 @@ export default function Home() {
         <MainSection />
       </div>
 
-      <div className="">
+      <div className="mt-12">
         <AboutUs />
       </div>
-      <div className="">
+      <div className="mt-12">
         <Services />
       </div>
-      <div className="">
+      <div className="mt-12">
         <Blogs />
       </div>
-      <div className="">
+      <div className="mt-12">
         <ContactUs />
       </div>
     </main>

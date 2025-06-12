@@ -1,0 +1,97 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Content Strategy",
+        "slug": "content-strategy",
+        "description": "Plan your content for maximum impact.",
+        "details": "We audit your brand, define content goals, map content calendars, and align strategy with business outcomes.",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 2,
+        "title": "SEO Content Writing",
+        "slug": "seo-content-writing",
+        "description": "Rank higher with expert SEO writing.",
+        "details": "Our writers create optimized articles, landing pages, and blog posts based on keyword research and search intent.",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 3,
+        "title": "Social Media Management",
+        "slug": "social-media-management",
+        "description": "Keep your brand active online.",
+        "details": "We manage your social media channels with tailored posts, scheduling, audience engagement, and analytics.",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 4,
+        "title": "Video Script Writing",
+        "slug": "video-script-writing",
+        "description": "Engaging scripts for your videos.",
+        "details": "From YouTube to TikTok, we craft compelling scripts that boost watch time and drive conversions.",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 5,
+        "title": "Email Marketing Content",
+        "slug": "email-marketing-content",
+        "description": "Boost open rates with powerful emails.",
+        "details": "We write newsletters, drip campaigns, and sales emails designed to engage and convert subscribers.",
+        "image": "/image-placeholder.png"
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "title": "How to Build a Content Strategy in 2025",
+        "slug": "build-content-strategy-2025",
+        "excerpt": "Learn how to plan your content roadmap for modern digital channels.",
+        "content": "A content strategy aligns your messaging with business goals. Start by defining your audience, their pain points, and your unique solutions...",
+        "author": "Mira Denal",
+        "date": "2025-06-10",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 2,
+        "title": "Why SEO Writing Still Matters",
+        "slug": "why-seo-writing-matters",
+        "excerpt": "SEO is not dead — it just evolved. Here's how to write for both humans and search engines.",
+        "content": "Despite AI and changing algorithms, writing with intent, relevance, and optimization is more important than ever...",
+        "author": "Tomas Vey",
+        "date": "2025-06-08",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 3,
+        "title": "Top 5 Tools for Content Teams",
+        "slug": "top-tools-content-teams",
+        "excerpt": "These tools can level up your planning, writing, and distribution game.",
+        "content": "From Trello and Notion to Grammarly and Buffer — here’s what modern content teams are using to streamline their workflow...",
+        "author": "Kara Ilon",
+        "date": "2025-06-04",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 4,
+        "title": "Mastering TikTok Scripts",
+        "slug": "mastering-tiktok-scripts",
+        "excerpt": "Short-form video needs sharp storytelling. Here’s how to write it.",
+        "content": "The first 3 seconds matter most. We break down structure, hooks, CTA placement, and timing to help your videos land...",
+        "author": "Rafi Semor",
+        "date": "2025-06-02",
+        "image": "/image-placeholder.png"
+      },
+      {
+        "id": 5,
+        "title": "Email Copy That Converts",
+        "slug": "email-copy-that-converts",
+        "excerpt": "Turn opens into actions with better copywriting.",
+        "content": "Most emails get ignored. But the right words — structured well — can drive real business results. Here’s how to write them...",
+        "author": "Nyla Ferik",
+        "date": "2025-06-01",
+        "image": "/image-placeholder.png"
+      }
+    ]
+  }
+  
