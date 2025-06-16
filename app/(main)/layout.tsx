@@ -7,7 +7,7 @@ type Props = { children: ReactNode };
 
 const layout = ({ children }: Props) => {
   return (
-    <div className="h-screen overflow-y-scroll bg-gradient-to-b from-white   via-indigo-200    to-indigo-400 ">
+    <div className=" bg-gradient-to-b from-white   via-indigo-200    to-indigo-400 ">
       <Container>
         <Header />
         {children}
