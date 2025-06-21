@@ -121,3 +121,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.noScroll::-webkit-scrollbar {
+ height: 7px;
+}
+.noScroll::-webkit-scrollbar-thumb {
+@apply bg-indigo-500 rounded-full;
+}
+  

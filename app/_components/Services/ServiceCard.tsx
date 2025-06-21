@@ -13,7 +13,7 @@ type Service = {
 export default function ServiceCard({ service }: { service: Service }) {
   return (
     <div className="bg-white rounded-2xl shadow-md p-5 hover:shadow-lg transition-all">
-      <div className="relative w-full h-48 mb-4 overflow-hidden rounded-xl flex items-center justify-center">
+      <div className="relative w-full aspect-video mb-4 overflow-hidden rounded-xl flex items-center justify-center">
         <ImageComponent
           src={service.image}
           alt={service.title}

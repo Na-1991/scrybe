@@ -6,7 +6,7 @@ type Props = {className?:string}
 
 const ContactUs = ({className}: Props) => {
   return (
-    <div className={cn(className,'min-h-[300px]')}>
+    <div id='contact-us' className={cn(className,'min-h-[300px]')}>
            <Heading title='Contact Us'/>
            <section className="max-w-6xl mx-auto   py-20">
    

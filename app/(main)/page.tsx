@@ -3,6 +3,7 @@ import Blogs from "../_components/main/Blogs";
 import ContactUs from "../_components/main/ContactUs";
 import MainSection from "../_components/main/MainSection";
 import Services from "../_components/main/Services";
+import TestimonialsSection from "../_components/main/Testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div className="mt-12">
         <Blogs />
+      </div>
+      <div className="mt-12">
+        <TestimonialsSection />
       </div>
       <div className="mt-12">
         <ContactUs />

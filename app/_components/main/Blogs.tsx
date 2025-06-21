@@ -9,7 +9,7 @@ type Props = { className?: string };
 const Blogs = ({ className }: Props) => {
   const blogs = data.blogs;
   return (
-    <div className={cn(className, "min-h-screen")}>
+    <div id="blogs" className={cn(className, "min-h-screen")}>
       <Heading title="Blogs" />
       <div className="mt-8">
         {blogs.map((blog, index) => (

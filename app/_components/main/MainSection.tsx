@@ -50,7 +50,7 @@ const MainSection = ({ className }: Props) => {
   }, []);
 
   return (
-    <div className={cn(className, "min-h-screen")}>
+    <div id="main" className={cn(className, "min-h-screen")}>
       <Heading title="Main Section" />
       <div className="h-[300px]"></div>
 
