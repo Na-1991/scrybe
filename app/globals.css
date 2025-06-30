@@ -123,6 +123,10 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 .noScroll::-webkit-scrollbar {
  height: 7px;
 }
@@ -130,3 +134,15 @@
 @apply bg-indigo-500 rounded-full;
 }
   
+.service-content{
+  font-size: 14px;
+ text-align: justify;
+
+}
+.service-content div{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+ margin-top: 8px;
+
+}

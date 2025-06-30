@@ -1,97 +1,94 @@
 {
-    "services": [
-      {
-        "id": 1,
-        "title": "Content Strategy",
-        "slug": "content-strategy",
-        "description": "Plan your content for maximum impact.",
-        "details": "We audit your brand, define content goals, map content calendars, and align strategy with business outcomes.",
+  "services": [
+    {
+      "id": 1,
+      "title": "Digital Marketing & Communications",
+
+      "description": "<h3>We create digital marketing strategies that deliver results. From websites and social media to campaign design and email marketing, we craft messages that connect. We work with businesses across industries, ensuring every campaign is tailored, relevant, and aligned with your brand and audience.</h3><div><span><b>See how we build successful B2B content strategies across the GCC:</b> B2B Content Strategy That Converts in the GCC</span><span><b>Explore how we measure content marketing ROI across the GCC:</b> ROI of Content Marketing in the GCC</span><span><b>Read how we optimize for B2B SEO across the UAE and beyond:</b> SEO for B2B Companies in the UAE</span></div>",
+      "image": "/image-placeholder.png"
+    },
+
+    {
+      "id": 2,
+      "title": "Executive & Thought Leadership Writing",
+      "description":"<h3>We help leaders find their voice and build trust. Our writers create articles, speeches, and thought pieces that reflect experience and insight. We understand the needs of CEOs, CMOs, and senior teams across industries, and craft messages that educate, engage, and inspire.</h3><div><span><b>Learn how ghostwriting can boost your executive brand across the GCC:</b> How Ghostwriting Can Boost Your Executive Brand in the GCC</span></div>",
         "image": "/image-placeholder.png"
-      },
-      {
-        "id": 2,
-        "title": "SEO Content Writing",
-        "slug": "seo-content-writing",
-        "description": "Rank higher with expert SEO writing.",
-        "details": "Our writers create optimized articles, landing pages, and blog posts based on keyword research and search intent.",
+    },
+    {
+      "id": 3,
+      "title": "Multilingual Localization",
+      "description":"<h3>We help you adapt your content for different languages and markets. Our localization goes beyond translation, we adjust tone, style, and context to fit the needs of every audience. We make sure your message doesn’t just cross borders, it finds its place and its voice.</h3><div><span><b>Why translation alone is not enough for the GCC:</b> Multilingual Marketing in the GCC: Why Translation Isn’t Enough</span><span><b>See the benefits of localization for B2B brands across the GCC:</b> 5 Key Benefits of Content Localization for GCC B2B Brands</span></div>",
         "image": "/image-placeholder.png"
-      },
-      {
-        "id": 3,
-        "title": "Social Media Management",
-        "slug": "social-media-management",
-        "description": "Keep your brand active online.",
-        "details": "We manage your social media channels with tailored posts, scheduling, audience engagement, and analytics.",
+    },
+    {
+      "id": 4,
+      "title": "Visual Storytelling & Design",
+        "image": "/image-placeholder.png",
+        "description":"<h3>We turn ideas into captivating visuals. From infographics and illustrations to campaign design and layouts, we create compelling imagery that captures attention and delivers your message clearly and creatively.</h3>"
+    },
+    {
+      "id": 5,
+      "title": "Voice over & Subtitles Services",
+      "description":"<h3>We produce voice overs and subtitles that carry your brand’s voice across languages, platforms, and screens. Our team works with precision to match tone, context, and delivery for every video and audio project.</h3>",
         "image": "/image-placeholder.png"
-      },
-      {
-        "id": 4,
-        "title": "Video Script Writing",
-        "slug": "video-script-writing",
-        "description": "Engaging scripts for your videos.",
-        "details": "From YouTube to TikTok, we craft compelling scripts that boost watch time and drive conversions.",
+    },
+    {
+      "id": 6,
+      "title": "Industries We Serve",
+      "description":"<h2>We work with businesses across sectors, including:Culture & Education | Government & International Organizations | Entertainment | F&B & Food Aggregation | Destination Marketing | Aviation, Automotive & Mobility | Oil & Gas, Energy & Engineering | Consumer Electronics, Retail & Luxury | Banking & Trading | Healthcare | Real Estate Each industry has its voice. We help you find it.</h2>",
         "image": "/image-placeholder.png"
-      },
-      {
-        "id": 5,
-        "title": "Email Marketing Content",
-        "slug": "email-marketing-content",
-        "description": "Boost open rates with powerful emails.",
-        "details": "We write newsletters, drip campaigns, and sales emails designed to engage and convert subscribers.",
-        "image": "/image-placeholder.png"
-      }
-    ],
-    "blogs": [
-      {
-        "id": 1,
-        "title": "How to Build a Content Strategy in 2025",
-        "slug": "build-content-strategy-2025",
-        "excerpt": "Learn how to plan your content roadmap for modern digital channels.",
-        "content": "A content strategy aligns your messaging with business goals. Start by defining your audience, their pain points, and your unique solutions...",
-        "author": "Mira Denal",
-        "date": "2025-06-10",
-        "image": "/image-placeholder.png"
-      },
-      {
-        "id": 2,
-        "title": "Why SEO Writing Still Matters",
-        "slug": "why-seo-writing-matters",
-        "excerpt": "SEO is not dead — it just evolved. Here's how to write for both humans and search engines.",
-        "content": "Despite AI and changing algorithms, writing with intent, relevance, and optimization is more important than ever...",
-        "author": "Tomas Vey",
-        "date": "2025-06-08",
-        "image": "/image-placeholder.png"
-      },
-      {
-        "id": 3,
-        "title": "Top 5 Tools for Content Teams",
-        "slug": "top-tools-content-teams",
-        "excerpt": "These tools can level up your planning, writing, and distribution game.",
-        "content": "From Trello and Notion to Grammarly and Buffer — here’s what modern content teams are using to streamline their workflow...",
-        "author": "Kara Ilon",
-        "date": "2025-06-04",
-        "image": "/image-placeholder.png"
-      },
-      {
-        "id": 4,
-        "title": "Mastering TikTok Scripts",
-        "slug": "mastering-tiktok-scripts",
-        "excerpt": "Short-form video needs sharp storytelling. Here’s how to write it.",
-        "content": "The first 3 seconds matter most. We break down structure, hooks, CTA placement, and timing to help your videos land...",
-        "author": "Rafi Semor",
-        "date": "2025-06-02",
-        "image": "/image-placeholder.png"
-      },
-      {
-        "id": 5,
-        "title": "Email Copy That Converts",
-        "slug": "email-copy-that-converts",
-        "excerpt": "Turn opens into actions with better copywriting.",
-        "content": "Most emails get ignored. But the right words — structured well — can drive real business results. Here’s how to write them...",
-        "author": "Nyla Ferik",
-        "date": "2025-06-01",
-        "image": "/image-placeholder.png"
-      }
-    ]
-  }
-  
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "B2B Content Strategy That Converts in the GCC",
+      "slug": "build-content-strategy-2025",
+      "excerpt": "Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.",
+      "content": "<p>Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.Buyers in the GCC don’t move fast. They don’t buy from strangers. They need to trust you. They need to see value. That means your content must speak clearly, feel local, and work at every step.Here’s how to build a B2B content strategy that works across the Gulf.</p><span><b>Why GCC Buyers Need a Different Approach</b><p>In the GCC, most B2B deals start with relationships. People buy from people they trust. It’s personal, slow, and it involves more than one person.You may need to convince a CEO, a finance team, and a tech manager. Therefore, your content must speak to each role. Also, don’t expect quick wins. It often takes months to close a deal. You need to stay visible, helpful, and relevant the whole time.</p></span><span><b>Where to Reach B2B Audiences in the Gulf</b><p>GCC buyers are online, a lot. Internet use in the UAE, Saudi Arabia, and Qatar is near 100%. LinkedIn is where most B2B action happens.The UAE alone has 9.7 million LinkedIn users. That’s over 90% of the population.Your brand should be there. Share useful posts, and make sure you write in English and Arabic. Arabic posts get up to 50% more engagement.Keep it real. Skip the slick promo videos.Try short explainers, product tips, or webinar clips. Usually videos that are under 3 minutes, easy to follow, and helpful do the best in this context.</p></span>",
+      "author": "Mira Denal",
+      "date": "2025-06-10",
+      "image": "/blogs/blog1.png"
+    },
+    {
+      "id": 2,
+      "title": "Why SEO Writing Still Matters",
+      "slug": "why-seo-writing-matters",
+      "excerpt": "SEO is not dead — it just evolved. Here's how to write for both humans and search engines.",
+      "content": "Despite AI and changing algorithms, writing with intent, relevance, and optimization is more important than ever...",
+      "author": "Tomas Vey",
+      "date": "2025-06-08",
+      "image": "/image-placeholder.png"
+    },
+    {
+      "id": 3,
+      "title": "Top 5 Tools for Content Teams",
+      "slug": "top-tools-content-teams",
+      "excerpt": "These tools can level up your planning, writing, and distribution game.",
+      "content": "From Trello and Notion to Grammarly and Buffer — here’s what modern content teams are using to streamline their workflow...",
+      "author": "Kara Ilon",
+      "date": "2025-06-04",
+      "image": "/image-placeholder.png"
+    },
+    {
+      "id": 4,
+      "title": "Mastering TikTok Scripts",
+      "slug": "mastering-tiktok-scripts",
+      "excerpt": "Short-form video needs sharp storytelling. Here’s how to write it.",
+      "content": "The first 3 seconds matter most. We break down structure, hooks, CTA placement, and timing to help your videos land...",
+      "author": "Rafi Semor",
+      "date": "2025-06-02",
+      "image": "/image-placeholder.png"
+    },
+    {
+      "id": 5,
+      "title": "Email Copy That Converts",
+      "slug": "email-copy-that-converts",
+      "excerpt": "Turn opens into actions with better copywriting.",
+      "content": "Most emails get ignored. But the right words — structured well — can drive real business results. Here’s how to write them...",
+      "author": "Nyla Ferik",
+      "date": "2025-06-01",
+      "image": "/image-placeholder.png"
+    }
+  ]
+}

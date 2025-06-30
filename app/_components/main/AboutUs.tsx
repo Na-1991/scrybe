@@ -11,8 +11,8 @@ const AboutUs = ({ className }: Props) => {
       <Heading title="About Us" titleClass="text-start" />
       <div className="flex  gap-2 mt-6">
         <div className="flex flex-col gap-2 flex-1 mt-8">
-          <h3>Who Are We?</h3>
-          <p>We Are The Best...</p>
+          <h2>Scrybe is a Dubai based digital marketing agency with over ten years of experience. We help businesses tell their story clearly, connect with their audience, and stand out across platforms, languages, and markets.</h2>
+          <p>We started Scrybe because we noticed a gap. Too many brands relied on generic messaging and awkward translations that missed the mark. We wanted to fix that. Today, we help businesses communicate with precision, purpose, and a deep understanding of their markets.</p>
         </div>
         <ImageComponent
         className="flex-1 bg-white h-full"
