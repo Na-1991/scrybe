@@ -49,8 +49,48 @@
       "id": 1,
       "title": "B2B Content Strategy That Converts in the GCC",
       "slug": "build-content-strategy-2025",
+      "intro":"Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.<br/>Buyers in the GCC don’t move fast. They don’t buy from strangers. They need to trust you. They need to see value. That means your content must speak clearly, feel local, and work at every step.<br/>Here’s how to build a B2B content strategy that works across the Gulf.",
       "excerpt": "Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.",
-      "content": "<p>Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.Buyers in the GCC don’t move fast. They don’t buy from strangers. They need to trust you. They need to see value. That means your content must speak clearly, feel local, and work at every step.Here’s how to build a B2B content strategy that works across the Gulf.</p><span><b>Why GCC Buyers Need a Different Approach</b><p>In the GCC, most B2B deals start with relationships. People buy from people they trust. It’s personal, slow, and it involves more than one person.You may need to convince a CEO, a finance team, and a tech manager. Therefore, your content must speak to each role. Also, don’t expect quick wins. It often takes months to close a deal. You need to stay visible, helpful, and relevant the whole time.</p></span><span><b>Where to Reach B2B Audiences in the Gulf</b><p>GCC buyers are online, a lot. Internet use in the UAE, Saudi Arabia, and Qatar is near 100%. LinkedIn is where most B2B action happens.The UAE alone has 9.7 million LinkedIn users. That’s over 90% of the population.Your brand should be there. Share useful posts, and make sure you write in English and Arabic. Arabic posts get up to 50% more engagement.Keep it real. Skip the slick promo videos.Try short explainers, product tips, or webinar clips. Usually videos that are under 3 minutes, easy to follow, and helpful do the best in this context.</p></span>",
+      "content": 
+      [
+        {"title":"Why GCC Buyers Need a Different Approach",
+        "description":"In the GCC, most B2B deals start with relationships. People buy from people they trust. It’s personal, slow, and it involves more than one person.<br/>You may need to convince a CEO, a finance team, and a tech manager. Therefore, your content must speak to each role. Also, don’t expect quick wins. It often takes months to close a deal. You need to stay visible, helpful, and relevant the whole time."},
+
+        {"title":"Where to Reach B2B Audiences in the Gulf",
+        "description":"GCC buyers are online, a lot. Internet use in the UAE, Saudi Arabia, and Qatar is near 100%. LinkedIn is where most B2B action happens.<br/>The UAE alone has 9.7 million LinkedIn users. That’s over 90% of the population.<br/>Your brand should be there. Share useful posts, and make sure you write in English and Arabic. Arabic posts get up to 50% more engagement.<br/>Keep it real. Skip the slick promo videos. Try short explainers, product tips, or webinar clips. Usually videos that are under 3 minutes, easy to follow, and helpful do the best in this context."},
+        {
+          "title":"Use Email and WhatsApp the Right Way",
+          "description":"Email still works, if it’s short and useful. Remove the unnecessary fluff, add value, and keep it mobile-friendly.<br/>WhatsApp is huge in the Gulf. In the UAE, over 85% of people use it daily.<br/>Use it for quick follow-ups or reminders, but don’t spam. Always ask first."
+        },
+        {
+          "title":"How to Nurture Leads Without Pushing",
+          "description":"Don’t expect buyers to act after one email, one video, or one meeting. You have to stay present over time.<br/>Start with something small, like a checklist or a guide. Follow up with a short video. <br/>Later, share a case study. Keep showing how you solve their problem. Mention their name, country, and industry. Show them this isn’t a bulk message. It’s personalized for them.<br/>And when they’re ready, have someone real reach out. No bots, no pressure. Just a person."
+        },
+        {
+          "title":"Use Events to Build Trust",
+          "description":"In-person meetings still matter. A handshake, a smile, a real chat, these build trust fast.<br/>GITEX, WETEX, Gulfood, big events like these are full of serious B2B buyers. Make sure you use them properly. If someone visits your booth, follow up. Send a thank you. Invite them to a webinar. Keep the link warm."
+        },
+        {
+          "title":"Make Your Content Feel Local",
+          "description":"The Gulf is not one place. A buyer in Riyadh wants different proof than a buyer in Dubai or Doha.<br/>Use local case studies. Reference local goals like Vision 2030. Use the right tone, formal when needed, clear always.<br/>Don’t just translate. Localize. People can tell the difference."
+        },
+        {
+          "title":"Mix Technology With Human Connection",
+          "description":"Tools can help. AI can segment your audience or suggest better subject lines. But GCC buyers want real relationships. They want to deal with people, not platforms.<br/>Use tech to support the process. Let your team do the connecting."
+        },
+        {
+          "title":"Watch What Works and Adapt",
+          "description":"Set simple goals. Do people open the email? Watch the video? Share the post?<br/>Drop what doesn’t work. Double down on what does. If a short video pulls leads and a whitepaper doesn’t, that’s your answer.<br/>Test. Learn. Adjust."
+        },
+        {
+          "title":"Real B2B Results From the GCC",
+          "description":"One UAE startup, Tumodo, more than doubled their conversion rate in one year. How? Strong content, local targeting, and in-person follow-ups.<br/>Al Masaood Power, a local industrial brand, created content for each of its target sectors. It wasn’t fancy. Just focused. Blogs, brochures, and posts built around what their clients needed.<br/>That’s what smart content does. It speaks clearly, reaches the right people, and earns trust."
+        },
+        {
+          "title":"Final Takeaway",
+          "description":"If you want your B2B content to work in the GCC, remember three things:<br/><ul><li>• Be useful. Be local. Be human.</li><li>• Speak to your audience in their language. On the platforms they trust. With content that actually helps.</li><li>• That’s how you build trust. That’s how you win.</li></ul>"
+        }
+    ],
       "author": "Mira Denal",
       "date": "2025-06-10",
       "image": "/blogs/blog1.png"
@@ -59,8 +99,11 @@
       "id": 2,
       "title": "Why SEO Writing Still Matters",
       "slug": "why-seo-writing-matters",
+      "intro":"",
       "excerpt": "SEO is not dead — it just evolved. Here's how to write for both humans and search engines.",
-      "content": "Despite AI and changing algorithms, writing with intent, relevance, and optimization is more important than ever...",
+      "content": 
+      [{"title":"test","description":"test"}
+    ],
       "author": "Tomas Vey",
       "date": "2025-06-08",
       "image": "/image-placeholder.png"
@@ -69,8 +112,11 @@
       "id": 3,
       "title": "Top 5 Tools for Content Teams",
       "slug": "top-tools-content-teams",
+      "intro":"",
       "excerpt": "These tools can level up your planning, writing, and distribution game.",
-      "content": "From Trello and Notion to Grammarly and Buffer — here’s what modern content teams are using to streamline their workflow...",
+      "content": 
+      [{"title":"test","description":"test"}
+    ],
       "author": "Kara Ilon",
       "date": "2025-06-04",
       "image": "/image-placeholder.png"
@@ -80,7 +126,10 @@
       "title": "Mastering TikTok Scripts",
       "slug": "mastering-tiktok-scripts",
       "excerpt": "Short-form video needs sharp storytelling. Here’s how to write it.",
-      "content": "The first 3 seconds matter most. We break down structure, hooks, CTA placement, and timing to help your videos land...",
+      "intro":"Doing B2B marketing in the Gulf takes more than global strategy. It takes local understanding.<br/>Buyers in the GCC don’t move fast. They don’t buy from strangers. They need to trust you. They need to see value. That means your content must speak clearly, feel local, and work at every step.<br/>Here’s how to build a B2B content strategy that works across the Gulf.",
+      "content": 
+      [{"title":"Why GCC Buyers Need a Different Approach","description":"In the GCC, most B2B deals start with relationships. People buy from people they trust. It’s personal, slow, and it involves more than one person.<br/>You may need to convince a CEO, a finance team, and a tech manager. Therefore, your content must speak to each role. Also, don’t expect quick wins. It often takes months to close a deal. You need to stay visible, helpful, and relevant the whole time."}
+    ],
       "author": "Rafi Semor",
       "date": "2025-06-02",
       "image": "/image-placeholder.png"
@@ -89,8 +138,11 @@
       "id": 5,
       "title": "Email Copy That Converts",
       "slug": "email-copy-that-converts",
+      "intro":"",
       "excerpt": "Turn opens into actions with better copywriting.",
-      "content": "Most emails get ignored. But the right words — structured well — can drive real business results. Here’s how to write them...",
+      "content": 
+      [{"title":"test","description":"test"}
+    ],
       "author": "Nyla Ferik",
       "date": "2025-06-01",
       "image": "/image-placeholder.png"

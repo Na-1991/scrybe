@@ -12,9 +12,14 @@ const page = async ({params}: Props) => {
   if(!blog) return notFound()
   return (
 <div className='min-h-screen'>
-<h3>{blog.title}</h3>
-<ImageComponent alt='blog'  aspect='video' src={blog.image} className='w-full mt-12' />
-<span className='blog-content mt-12 block' dangerouslySetInnerHTML={{__html:blog.content}} />
+<h3 className='font-bold text-4xl mt-8'>{blog.title}</h3>
+<ImageComponent alt='blog'  aspect='video' src={blog.image} className='w-full mt-6' />
+{<div className='mt-12 pb-6'>
+  {blog.intro && <p dangerouslySetInnerHTML={{__html:blog.intro}} />}
+  {blog.content.map((item,index)=><div key={index} className='flex flex-col gap-1 mt-4'>
+<span className='font-bold'>{item.title}</span>
+<span className='text-sm d' dangerouslySetInnerHTML={{__html:item.description}} />
+</div>)}</div>}
 </div>
    
   )
