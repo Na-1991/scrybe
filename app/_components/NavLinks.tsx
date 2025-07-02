@@ -10,12 +10,12 @@ const pathname = usePathname()
     const links = [
         {
             label:"About Us",
-            href:'#about-us',
+            href:'/#about-us',
             active:pathname.includes('about-us')
         },
         {
             label:"Services",
-            href:'#services',
+            href:'/#services',
             active:pathname.includes('services')
         },
         {
@@ -25,7 +25,7 @@ const pathname = usePathname()
         },
         {
             label:"Contact Us",
-            href:'#contact-us',
+            href:'/#contact-us',
             active:pathname.includes('blog')
         },
     ]

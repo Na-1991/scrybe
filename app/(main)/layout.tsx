@@ -7,9 +7,10 @@ type Props = { children: ReactNode };
 
 const layout = ({ children }: Props) => {
   return (
-    <div className=" bg-gradient-to-b from-white   via-indigo-200    to-indigo-400 ">
+    <div className=" bg-gradient-to-b from-white   via-indigo-200  relative  to-indigo-400 ">
+              <Header />
       <Container>
-        <Header />
+
         {children}
       </Container>
       <Footer/>

@@ -97,16 +97,24 @@
     },
     {
       "id": 2,
-      "title": "Why SEO Writing Still Matters",
-      "slug": "why-seo-writing-matters",
-      "intro":"",
-      "excerpt": "SEO is not dead — it just evolved. Here's how to write for both humans and search engines.",
+      "title": "Why We Started Scrybe: Fixing GCC Content the Right Way",
+      "slug": "why-we-started-scrybe-fixing-gcc-content-the-right-way",
+      "intro":"We didn’t launch Scrybe to follow hype. We launched it to solve a real issue:",
+      "excerpt": "We didn’t launch Scrybe to follow hype. We launched it to solve a real issue",
       "content": 
-      [{"title":"test","description":"test"}
+      [
+        {"title":"GCC brands needed better content.","description":"We kept seeing the same problems. Confusing writing, awkward translations, generic tone, and content that didn’t sound like it belonged here.<br/>For businesses in the Gulf, that’s not a small mistake. It’s a trust problem."},
+        {"title":"What We Saw in the Market","description":"Every week, we saw brands push out content meant for Gulf buyers. The message was off. It sounded like it came from a machine, or a non-native speaker. Or worse, from far outside the region.<br/>The Arabic was stiff, the English was cluttered, and the voice didn’t fit.<br/>Audiences noticed. They stopped reading, or they stopped trusting.<br/>In a region where trust drives business, poor content does more than fall flat. It drives people away.<br/>"},
+        {"title":"Why Translation Alone Doesn’t Work","description":"Many brands try to fix this by translating content from English into Arabic. But direct translation doesn’t work.<br/><ul>Here’s why:<li>• Arabic isn’t one-size-fits-all.</li><li>• Arabic isn’t one-size-fits-all.</li><li>• What works in Saudi may not fit the UAE.</li><li>• Word-for-word translation misses tone, nuance, and culture.</li></ul><br/>Machines can’t solve this. Most agencies don’t either. That’s what we wanted to fix."},
+        {"title":"How We Built Scrybe for the GCC","description":"We built Scrybe to help brands speak clearly with local tones.<br/>We’re writers, editors, and translators. We’ve spent over 15 years working with Arabic and English content. We know how to write for people, not platforms.<br/>We don’t just check for grammar. We check for voice, flow, and fit. We localize, adapt, and make sure the message sounds like it came from the region, not through it.<br/>And we don’t act like outsiders. We work as an extension of your team."},
+        {"title":"What Makes Content Work in the Gulf","description":"To win in the GCC, your content has to do three things:<br/><b>1.Sound local. </b>People should feel like you understand the market, because you do.<br/><b>2. Be clear. </b>Whether in Arabic or English, good writing is easy to read and hard to ignore.<br/><b>3. Build trust. </b>That comes from relevance, tone, and consistency. It’s what separates noise from value.<br/>Many Gulf brands try to scale fast, and their content suffers. They rush to publish without checking how it lands in Arabic. Or they go global without thinking local.<br/>The result? Messaging that confuses more than it converts.<br/>We help you avoid that.<br/>"},
+        {"title":"Why Voice, Tone, and Trust Matter","description":"A strong B2B content strategy in the GCC starts with voice. Not just what you say, but how you say it.<br/>Do you sound confident? Respectful? Clear?<br/>Are you writing for Saudi execs or UAE startups? Are you casual or formal? Bilingual or Arabic-first?<br/>Tone and delivery make all the difference. This isn’t just translation. It’s content localization, and it matters more than ever.<br/>"},
+        {"title":"What GCC Brands Deserve","description":"You deserve more than fast translation.<br/>You deserve content that fits your brand, and your market.<br/>You deserve a partner who gets the details right.<br/>We’ve worked with governments, global firms, and startups. The common thread? Once you get the voice right, everything else falls into place, outreach, leads, deals, and growth.<br/>Because in the Gulf, trust starts with language. And trust builds business."},
+        {"title":"Why We Started Scrybe","description":"We started Scrybe because we believe this:<br/>• Content should be simple, sharp, and human.<br/>• Arabic should feel like a first language, not a second thought.<br/>• Good writing doesn’t draw attention to itself, it just works.<br/>• GCC brands should never settle for “good enough.”<br/>If you’re ready to sound more like you, and more like here, let’s talk. <a href='https://www.scrybe.ae/contact/'>Contact Us.</a>"}
     ],
       "author": "Tomas Vey",
       "date": "2025-06-08",
-      "image": "/image-placeholder.png"
+      "image": "/blogs/blog2.png"
     },
     {
       "id": 3,

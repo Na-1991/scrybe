@@ -75,10 +75,10 @@ const TestimonialsSection = ({ className }: Props) => {
 
        <CarouselContent className="w-full mt-12 items-stretch">
           {testimonials.map((t, i) => (
-              <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3 w-full" >
             <div
             
-              className="  max-w-sm flex-shrink-0 h-full  bg-white p-6 rounded-2xl shadow hover:shadow-lg transition duration-300"
+              className="  w-full flex-shrink-0 h-full  bg-white p-6 rounded-2xl shadow hover:shadow-lg transition duration-300"
             >
               <div className="flex justify-center mb-4">
                 <Image
@@ -96,8 +96,7 @@ const TestimonialsSection = ({ className }: Props) => {
             </CarouselItem>
           ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+     
      
     </section>
     </Carousel>
