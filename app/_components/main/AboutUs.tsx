@@ -7,9 +7,9 @@ type Props = { className?: string };
 
 const AboutUs = ({ className }: Props) => {
   return (
-    <div id="about-us" className={cn(className, "max-h-[600px] rounded-2xl bg-indigo-500 p-8")}>
+    <div id="about-us" className={cn(className, "  rounded-2xl bg-indigo-500 p-8")}>
       <Heading title="About Us" titleClass="text-start" />
-      <div className="flex  gap-2 mt-6">
+      <div className="flex  gap-2 mt-6 lg:flex-row flex-col">
         <div className="flex flex-col gap-2 flex-1 mt-8">
           <h2>Scrybe is a Dubai based digital marketing agency with over ten years of experience. We help businesses tell their story clearly, connect with their audience, and stand out across platforms, languages, and markets.</h2>
           <p>We started Scrybe because we noticed a gap. Too many brands relied on generic messaging and awkward translations that missed the mark. We wanted to fix that. Today, we help businesses communicate with precision, purpose, and a deep understanding of their markets.</p>

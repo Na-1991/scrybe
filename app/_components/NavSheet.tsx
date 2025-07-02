@@ -47,14 +47,15 @@ const NavSheet = (props: Props) => {
       <SheetHeader>
         <SheetTitle> </SheetTitle>
         <SheetDescription>
-            <div className="flex flex-col">
+        
+   
+        </SheetDescription>
+      </SheetHeader>
+      <div className="flex flex-col">
             {links.map(link=><SheetClose className="p-3" asChild key={link.label}>
             <Link href={link.href} className=' hover:text-site transition text-mg font-semibold'>{link.label}</Link>
         </SheetClose>)}
             </div>
-   
-        </SheetDescription>
-      </SheetHeader>
     </SheetContent>
   </Sheet>
   )
