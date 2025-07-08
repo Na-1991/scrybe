@@ -35,14 +35,8 @@
       "slug": "5",
       "description":"<h3>We produce voice overs and subtitles that carry your brand’s voice across languages, platforms, and screens. Our team works with precision to match tone, context, and delivery for every video and audio project.</h3>",
         "image": "/services/service5.png"
-    },
-    {
-      "id": 6,
-      "title": "Industries We Serve",
-      "slug": "6",
-      "description":"<h2>We work with businesses across sectors, including:Culture & Education | Government & International Organizations | Entertainment | F&B & Food Aggregation | Destination Marketing | Aviation, Automotive & Mobility | Oil & Gas, Energy & Engineering | Consumer Electronics, Retail & Luxury | Banking & Trading | Healthcare | Real Estate Each industry has its voice. We help you find it.</h2>",
-        "image": "/image-placeholder.png"
     }
+  
   ],
   "blogs": [
     {
@@ -343,3 +337,7 @@
     }
   ]
 }
+
+
+
+ 

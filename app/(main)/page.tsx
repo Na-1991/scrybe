@@ -1,5 +1,6 @@
 import AboutUs from "../_components/main/AboutUs";
 import Blogs from "../_components/main/Blogs";
+import Companies from "../_components/main/Companies";
 import ContactUs from "../_components/main/ContactUs";
 import FAQ from "../_components/main/FAQ";
 import MainSection from "../_components/main/MainSection";
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div className="mt-12">
         <Services />
+      </div>
+      <div className="mt-12">
+        <Companies />
       </div>
       <div className="mt-12">
         <Blogs />

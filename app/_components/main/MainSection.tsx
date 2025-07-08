@@ -35,7 +35,7 @@ const MainSection = ({ className }: Props) => {
       );
 
       const isMobile = window.innerWidth < 768;
-      const maxOffset = isMobile ? 80 : 350;
+      const maxOffset = isMobile ? 120 : 450;
 
       const leftOffset = -maxOffset * progress;
       const rightOffset = maxOffset * progress;
@@ -64,9 +64,9 @@ const MainSection = ({ className }: Props) => {
           className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-1/3 transition-all duration-300"
         >
           <ImageComponent
-            className="w-full"
+            className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/image-placeholder.png"
+            src="/main.jfif"
             alt="Left"
           />
         </div>
@@ -77,9 +77,9 @@ const MainSection = ({ className }: Props) => {
           className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-1/3 transition-all duration-300"
         >
           <ImageComponent
-            className="w-full"
+            className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/image-placeholder.png"
+            src="/main.jfif"
             alt="Right"
           />
         </div>
@@ -87,9 +87,9 @@ const MainSection = ({ className }: Props) => {
         {/* Middle Image */}
         <div className="z-10 relative w-1/2">
           <ImageComponent
-            className="w-full"
+            className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/image-placeholder.png"
+            src="/main.jfif"
             alt="Main"
           />
         </div>

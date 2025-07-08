@@ -41,7 +41,7 @@ const faqs = [
 const FAQ = (props: Props) => {
   return (
     <div className="bg-white rounded-xl p-12">
-      <Heading title="FAQs" />
+      <Heading title="FAQs"  descriptionClass="text-md" />
       <div className="mt-12">
         <Accordion type="single" collapsible>
           {faqs.map((item, index) => (

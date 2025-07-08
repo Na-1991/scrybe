@@ -12,7 +12,7 @@ const Heading = ({title,description,descriptionClass,titleClass}: Props) => {
   return (
     <div className='flex flex-col gap-1'>
         <p className={cn('font-semibold text-black text-center text-5xl',titleClass,)}>{title}</p>
-       {description &&  <p className={cn('text-muted-foreground text-xs text-center',descriptionClass)}>{description}</p>}
+       {description &&  <p className={cn('text-black text-xs text-center',descriptionClass)}>{description}</p>}
     </div>
   )
 }
