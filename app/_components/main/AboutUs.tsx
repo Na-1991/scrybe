@@ -7,7 +7,7 @@ type Props = { className?: string };
 
 const AboutUs = ({ className }: Props) => {
   return (
-    <div id="about-us" className={cn(className, "  p-8")}>
+    <div id="about-us" className={cn(className, "")}>
       <Heading title="About Us" titleClass=""  descriptionClass="text-md"/>
       <div className="flex  gap-2 mt-6 lg:flex-row flex-col">
         <div className="flex flex-col gap-2 flex-1 mt-8">
