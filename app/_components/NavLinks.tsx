@@ -31,7 +31,7 @@ const pathname = usePathname()
     ]
   return (
     <nav className='flex items-center gap-10'>
-        {links.map(link=><Link key={link.label} href={link.href} className=' hover:text-site transition'>{link.label}</Link>)}
+        {links.map(link=><Link key={link.label} href={link.href} className=' hover:text-site transition font-[500]'>{link.label}</Link>)}
     </nav>
   )
 }

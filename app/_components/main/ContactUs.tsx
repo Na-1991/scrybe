@@ -14,7 +14,7 @@ const ContactUs = ({ className }: Props) => {
       />
       <section className="max-w-6xl mx-auto   py-20">
         {/* Contact Info (Optional) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 text-gray-700 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-700 gap-12">
           <div className="p-4 rounded-xl bg-white">
             <h4 className="font-bold mb-1">Email</h4>
             <p>info@scrybe.ae</p>

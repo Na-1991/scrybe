@@ -50,7 +50,7 @@ const MainSection = ({ className }: Props) => {
   }, []);
 
   return (
-    <div id="main" className={cn(className, "min-h-screen")}>
+    <div id="main" className={cn(className, "")}>
       <Heading title="Main Section" />
       <div className="h-[300px]"></div>
 
@@ -66,7 +66,7 @@ const MainSection = ({ className }: Props) => {
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.jfif"
+            src="/main.png"
             alt="Left"
           />
         </div>
@@ -79,7 +79,7 @@ const MainSection = ({ className }: Props) => {
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.jfif"
+            src="/main.png"
             alt="Right"
           />
         </div>
@@ -89,7 +89,7 @@ const MainSection = ({ className }: Props) => {
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.jfif"
+            src="/main.png"
             alt="Main"
           />
         </div>

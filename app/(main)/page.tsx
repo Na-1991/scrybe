@@ -7,31 +7,33 @@ import MainSection from "../_components/main/MainSection";
 import Services from "../_components/main/Services";
 import TestimonialsSection from "../_components/main/Testimonials";
 
+export const revalidate = 0
+
 export default function Home() {
   return (
     <main className=" ">
-      <div className="mt-12">
+      <div className="mt-24">
         <MainSection />
       </div>
-      <div className="mt-12">
+      <div className="mt-24">
         <AboutUs />
       </div>
-      <div className="mt-12">
+      <div className="mt-24">
         <Services />
       </div>
-      <div className="mt-12">
+      <div className="mt-24">
         <Companies />
       </div>
-      <div className="mt-12">
+      <div className="mt-24">
         <Blogs />
       </div>
-      <div className="mt-12">
+      {/* <div className="mt-24">
         <TestimonialsSection />
-      </div>
-      <div className="mt-12">
+      </div> */}
+      <div className="mt-24">
         <FAQ />
       </div>
-      <div className="mt-12">
+      <div className="mt-24">
         <ContactUs />
       </div>
     </main>

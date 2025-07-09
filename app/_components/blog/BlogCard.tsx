@@ -7,8 +7,7 @@ type Blog = {
   title: string;
   slug: string;
   excerpt: string;
-  author: string;
-  date: string;
+ 
   image: string;
 };
 
@@ -30,9 +29,7 @@ export default function BlogCard({
       {/* Text */}
       <div className="md:w-1/2">
         <h2 className="text-2xl font-bold mb-2">{blog.title}</h2>
-        <p className="text-sm text-gray-500 mb-1">
-          {blog.date} • {blog.author}
-        </p>
+        
         <p className="text-gray-600 mb-3">{blog.excerpt}</p>
         <Link
           href={`/blog/${blog.slug}`}

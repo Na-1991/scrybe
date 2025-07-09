@@ -16,7 +16,7 @@ const companies = [
   "/companies/DCT-png.png",
   "/companies/dewa-png.png",
   "/companies/DHCC-jpg.png",
-  "/companies/Diriyah-E-prix-png.png",
+  "/companies/Diriyah-E-Prix-png.png",
   "/companies/DMCC-png.png",
   "/companies/DP-World-png.png",
   "/companies/eithad-cargo-png.png",
@@ -38,7 +38,7 @@ const companies = [
 const Companies = (props: Props) => {
   return (
     <div>
-        <Heading title="Industries We Serv"
+        <Heading title="Industries We Serve"
         description="    We work with businesses across sectors, including:Culture & Education
           | Government & International Organizations | Entertainment | F&B &
           Food Aggregation | Destination Marketing | Aviation, Automotive &

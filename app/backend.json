@@ -85,8 +85,7 @@
           "description":"If you want your B2B content to work in the GCC, remember three things:<br/><ul><li>• Be useful. Be local. Be human.</li><li>• Speak to your audience in their language. On the platforms they trust. With content that actually helps.</li><li>• That’s how you build trust. That’s how you win.</li></ul>"
         }
     ],
-      "author": "Mira Denal",
-      "date": "2025-06-10",
+     
       "image": "/blogs/blog1.png"
     },
     {
@@ -106,14 +105,13 @@
         {"title":"What GCC Brands Deserve","description":"You deserve more than fast translation.<br/>You deserve content that fits your brand, and your market.<br/>You deserve a partner who gets the details right.<br/>We’ve worked with governments, global firms, and startups. The common thread? Once you get the voice right, everything else falls into place, outreach, leads, deals, and growth.<br/>Because in the Gulf, trust starts with language. And trust builds business."},
         {"title":"Why We Started Scrybe","description":"We started Scrybe because we believe this:<br/>• Content should be simple, sharp, and human.<br/>• Arabic should feel like a first language, not a second thought.<br/>• Good writing doesn’t draw attention to itself, it just works.<br/>• GCC brands should never settle for “good enough.”<br/>If you’re ready to sound more like you, and more like here, let’s talk. <a href='https://www.scrybe.ae/contact/'>Contact Us.</a>"}
     ],
-      "author": "Tomas Vey",
-      "date": "2025-06-08",
+    
       "image": "/blogs/blog2.png"
     },
     {
       "id": 3,
-      "title": "Top 5 Tools for Content Teams",
-      "slug": "top-tools-content-teams",
+      "title": "Multilingual Marketing in the GCC: Why Translation Isn’t Enough",
+      "slug": "multilingual-marketing-in-the-gcc-why-translation-isnt-enough",
       "intro":"",
       "excerpt": "These tools can level up your planning, writing, and distribution game.",
       "content": 
@@ -148,8 +146,7 @@
         }
       ]
       ,
-      "author": "Kara Ilon",
-      "date": "2025-06-04",
+     
       "image": "/blogs/blog3.png"
     },
     {
@@ -198,8 +195,7 @@
         }
       ],
       
-      "author": "Rafi Semor",
-      "date": "2025-06-02",
+  
       "image": "/blogs/blog4.png"
     },
     {
@@ -240,8 +236,7 @@
         }
       ]
       ,
-      "author": "Nyla Ferik",
-      "date": "2025-06-01",
+     
       "image": "/blogs/blog5.png"
     },
     {
@@ -287,8 +282,7 @@
       ]
       
       ,
-      "author": "Nyla Ferik",
-      "date": "2025-06-01",
+   
       "image": "/blogs/blog6.png"
     },
     {
@@ -331,8 +325,7 @@
       
       
       ,
-      "author": "Nyla Ferik",
-      "date": "2025-06-01",
+ 
       "image": "/blogs/blog7.png"
     }
   ]

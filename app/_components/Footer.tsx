@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import Link from "next/link";
+import ImageComponent from "./ImageComponent";
 
 type Props = {};
 
@@ -11,7 +12,9 @@ const Footer = (props: Props) => {
         <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">Brand</h2>
+          <Link href={"/"} className="font-[500]">
+          <ImageComponent src="/logo-blue.png" aspect="video" imgClassName="object-contain" className="w-[120px]" alt="Logo" />
+          </Link>
             <p className="text-gray-400 text-sm">
               Empowering your digital presence with content that connects.
             </p>
@@ -47,9 +50,9 @@ const Footer = (props: Props) => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <p className="text-sm text-gray-300 mb-2">hello@yourbrand.com</p>
-            <p className="text-sm text-gray-300 mb-2">+971 55 123 4567</p>
-            <p className="text-sm text-gray-300">Dubai, UAE</p>
+            <p className="text-sm text-gray-300 mb-2">info@scrybe.ae</p>
+            <p className="text-sm text-gray-300 mb-2">+971 52 891 8909</p>
+             
           </div>
 
           {/* Social (optional) */}
@@ -70,7 +73,7 @@ const Footer = (props: Props) => {
         </div>
 
         <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} YourBrand. All rights reserved.
+          © {new Date().getFullYear()}. All rights reserved.
         </div>
       </Container>
     </footer>
