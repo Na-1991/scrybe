@@ -12,9 +12,15 @@ const Footer = (props: Props) => {
         <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-          <Link href={"/"} className="font-[500]">
-          <ImageComponent src="/logo-blue.png" aspect="video" imgClassName="object-contain" className="w-[120px]" alt="Logo" />
-          </Link>
+            <Link href={"/"} className="font-[500]">
+              <ImageComponent
+                src="/logo-blue.png"
+                aspect="video"
+                imgClassName="object-contain"
+                className="w-[120px]"
+                alt="Logo"
+              />
+            </Link>
             <p className="text-gray-400 text-sm">
               Empowering your digital presence with content that connects.
             </p>
@@ -50,24 +56,32 @@ const Footer = (props: Props) => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <p className="text-sm text-gray-300 mb-2">info@scrybe.ae</p>
-            <p className="text-sm text-gray-300 mb-2">+971 52 891 8909</p>
-             
+            <Link
+              target="_blank"
+              href="mailto:info@scrybe.ae"
+              className="text-sm text-gray-300 mb-2 hover:underline block"
+            >
+              info@scrybe.ae
+            </Link>
+            <Link
+              href="https://wa.me/+971528918909"
+              target="_blank"
+              className="text-sm text-gray-300 mb-2 block hover:underline"
+            >
+              +971 52 891 8909
+            </Link>
           </div>
 
           {/* Social (optional) */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white">
-                Instagram
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                YouTube
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                TikTok
-              </a>
+              <Link
+                href="https://ae.linkedin.com/company/scrybe-fze"
+                className="text-gray-300 hover:text-indigo-700 font-[600] "
+              >
+                Linked In
+              </Link>
             </div>
           </div>
         </div>
