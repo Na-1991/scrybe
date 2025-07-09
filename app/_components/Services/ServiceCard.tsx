@@ -20,7 +20,7 @@ export default function ServiceCard({ service }: { service: Service }) {
           className='h-full  '
         />
       </div>
-      <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
+      <h3 className="text-lg font-[600] mb-2">{service.title}</h3>
       <span className="service-content" dangerouslySetInnerHTML={{__html:service.description}}/>
       {/* <Link className='mt-8 p-4 cursor-pointer text-center block bg-indigo-500 text-white rounded-lg' href={`/services/${service.slug}`}>See More</Link> */}
     
