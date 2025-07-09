@@ -161,7 +161,7 @@ html {
 .logo-marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee 40s linear infinite;
+  animation: marquee 80s linear infinite;
 }
 
 .group:hover .logo-marquee-track {

@@ -15,8 +15,8 @@ const AboutUs = ({ className }: Props) => {
           <p>We started Scrybe because we noticed a gap. Too many brands relied on generic messaging and awkward translations that missed the mark. We wanted to fix that. Today, we help businesses communicate with precision, purpose, and a deep understanding of their markets.</p>
         </div>
         <ImageComponent
-        className="flex-1 bg-white h-full"
-          src="/image-placeholder.png"
+        className="flex-1 bg-white h-full rounded-xl overflow-hidden"
+          src="/about-us.png"
           alt="placeholder"
           aspect="video"
         />
