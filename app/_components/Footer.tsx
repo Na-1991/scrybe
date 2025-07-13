@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-white">
+                <Link href="/#services" className="hover:text-white">
                   Services
                 </Link>
               </li>
@@ -46,7 +46,7 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
               <li>
-                <Link href="#contact-us" className="hover:text-white">
+                <Link href="/#contact-us" className="hover:text-white">
                   Contact
                 </Link>
               </li>
