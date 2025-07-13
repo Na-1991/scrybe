@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={` antialiased`}
-        style={{fontFamily:'"Courier New", Courier, monospace'}}
+        style={{ fontFamily: "Graphik, sans-serif" }}
       >
         {children}
       </body>

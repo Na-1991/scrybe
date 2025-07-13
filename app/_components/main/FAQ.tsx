@@ -71,7 +71,7 @@ const AccordionItemComponent = ({
 }) => {
   return (
     <AccordionItem value={value} className=" ">
-      <AccordionTrigger className="hover:bg-muted cursor-pointer rounded-none">{title}</AccordionTrigger>
+      <AccordionTrigger className="hover:bg-muted cursor-pointer rounded-none font-[600]">{title}</AccordionTrigger>
       <AccordionContent className="border-t-none  ">
         {description}
       </AccordionContent>

@@ -158,6 +158,32 @@ html {
   }
 }
 
+@font-face {
+  font-family: 'Graphik';
+  src: url('/fonts/graphik/Graphik-Regular-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold for 600 */
+@font-face {
+  font-family: 'Graphik';
+  src: url('/fonts/graphik/Graphik-Bold-Trial.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold for 700 */
+@font-face {
+  font-family: 'Graphik';
+  src: url('/fonts/graphik/Graphik-Bold-Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 .logo-marquee-track {
   display: flex;
   width: max-content;

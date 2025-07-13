@@ -6,6 +6,11 @@ import ImageComponent from "../ImageComponent";
 
 type Props = { className?: string };
 
+const applyTransform = (left: HTMLElement, right: HTMLElement, offset: number) => {
+  left.style.transform = `translateX(${-offset}px) translateY(-50%)`;
+  right.style.transform = `translateX(${offset}px) translateY(-50%)`;
+};
+
 const MainSection = ({ className }: Props) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const leftRef = useRef<HTMLDivElement>(null);
@@ -19,13 +24,31 @@ const MainSection = ({ className }: Props) => {
 
       if (!container || !left || !right) return;
 
+      const isMobile = window.innerWidth < 768;
+      const percentOffset = isMobile ? 0.403 : 0.403
+
       const containerTop = container.getBoundingClientRect().top;
       const containerHeight = container.offsetHeight;
+
       const windowHeight = window.innerHeight;
 
       const containerCenter = containerTop + containerHeight / 2;
       const viewportCenter = windowHeight / 2;
-      if(containerCenter < viewportCenter) return
+      if(containerCenter < viewportCenter){
+ 
+
+      const progress = 1
+ 
+      const maxOffset = container.offsetWidth * percentOffset;
+  
+      const offset = -maxOffset * progress;
+    
+
+      applyTransform(left,right,offset)
+  
+ 
+        return
+      } 
       const distanceToCenter = viewportCenter - containerCenter;
       const maxDistance = windowHeight / 2;
 
@@ -34,25 +57,29 @@ const MainSection = ({ className }: Props) => {
         1
       );
 
-      const isMobile = window.innerWidth < 768;
-      const maxOffset = isMobile ? 120 : 450;
 
-      const leftOffset = -maxOffset * progress;
-      const rightOffset = maxOffset * progress;
-
-      left.style.transform = `translateX(${leftOffset}px) translateY(-50%)`;
-      right.style.transform = `translateX(${rightOffset}px) translateY(-50%)`;
+      const maxOffset = container.offsetWidth * percentOffset;
+  
+      const offset = -maxOffset * progress;
+ 
+  
+      applyTransform(left,right,offset)
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll, { passive: true });
     handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", handleScroll)
+    };
+ 
   }, []);
 
   return (
     <div id="main" className={cn(className, "")}>
-      <Heading title="Main Section" />
-      <div className="h-[300px]"></div>
+      {/* <Heading title="Main Section" /> */}
+      {/* <div className="h-[300px]"></div> */}
 
       <div
         ref={containerRef}
@@ -61,12 +88,12 @@ const MainSection = ({ className }: Props) => {
         {/* Left Image */}
         <div
           ref={leftRef}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-1/3 transition-all duration-300"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-[30%] transition-all duration-300"
         >
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.png"
+            src="/main1.png"
             alt="Left"
           />
         </div>
@@ -74,12 +101,12 @@ const MainSection = ({ className }: Props) => {
         {/* Right Image */}
         <div
           ref={rightRef}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-1/3 transition-all duration-300"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 z-0 opacity-80 scale-90 w-[30%] transition-all duration-300"
         >
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.png"
+            src="/main2.png"
             alt="Right"
           />
         </div>
@@ -89,7 +116,7 @@ const MainSection = ({ className }: Props) => {
           <ImageComponent
             className="w-full rounded-lg overflow-hidden"
             aspect="square"
-            src="/main.png"
+            src="/main3.png"
             alt="Main"
           />
         </div>
