@@ -5,6 +5,16 @@ import ImageComponent from '@/app/_components/ImageComponent'
 
 type Props = {params:Promise<{slug:string}>}
 
+
+
+export async function generateStaticParams() {
+  const blogs = data.blogs
+ 
+  return blogs.map((blog) => ({
+    slug: blog.slug,
+  }))
+}
+
 const page = async ({params}: Props) => {
   const {slug} = await params
   console.log('slug',slug)
