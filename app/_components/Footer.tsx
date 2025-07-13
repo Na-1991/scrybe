@@ -21,9 +21,9 @@ const Footer = (props: Props) => {
                 alt="Logo"
               />
             </Link>
-            <p className="text-gray-400 text-sm">
+            {/* <p className="text-gray-400 text-sm">
               Empowering your digital presence with content that connects.
-            </p>
+            </p> */}
           </div>
 
           {/* Quick Links */}
