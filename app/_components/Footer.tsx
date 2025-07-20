@@ -42,7 +42,7 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-white">
+                <Link href="/#blog" className="hover:text-white">
                   Blog
                 </Link>
               </li>
