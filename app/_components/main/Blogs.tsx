@@ -19,7 +19,7 @@ const Blogs = ({ className }: Props) => {
   const thridBlog = blogs[thirdRandomNumber];
   return (
     <div>
-      <div id="blogs" className={cn(className, "min-h-screen")}>
+      <div id="blog" className={cn(className, "min-h-screen  scroll-mt-[30vh]")}>
         <Heading
           title="Blogs"
           description="Explore ideas, trends, and best practices for digital marketing across platforms, languages, and markets"

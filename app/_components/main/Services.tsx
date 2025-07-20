@@ -10,7 +10,7 @@ type Props = { className?: string };
 const Services = ({ className }: Props) => {
   const services = data.services;
   return (
-    <div id="services" className={cn(className, "min-h-screen")}>
+    <div id="services" className={cn(className, "min-h-screen  scroll-mt-[30vh]")}>
       <Heading
         title="Services"
         description="Scrybe is a one-stop digital marketing agency. We combine strategy, writing, design, and campaign expertise to help brands educate, build trust, and drive results across platforms and markets."

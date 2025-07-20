@@ -69,7 +69,7 @@ const TestimonialsSection = ({ className }: Props) => {
     className="w-full  "
   >
 
-    <section className={cn("py-20  0", className)}>
+    <section className={cn("py-20   scroll-mt-[30vh]", className)}>
     
        <Heading title="What People Are Saying" />
 

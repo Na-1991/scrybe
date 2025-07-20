@@ -20,7 +20,7 @@ const pathname = usePathname()
         },
         {
             label:"Blogs",
-            href:'/blog',
+            href:'/#blog',
             active:pathname.includes('blog')
         },
         {

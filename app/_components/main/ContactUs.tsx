@@ -8,7 +8,7 @@ type Props = { className?: string };
 
 const ContactUs = ({ className }: Props) => {
   return (
-    <div id="contact-us" className={cn(className, "min-h-[300px]")}>
+    <div id="contact-us" className={cn(className, "min-h-[300px]  scroll-mt-[30vh]")}>
       <Heading
         title="Contact Us"
         description="Have a project? Let us help you build trust, educate your audience, and stand out across platforms and markets."
