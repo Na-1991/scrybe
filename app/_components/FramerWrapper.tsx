@@ -24,7 +24,7 @@ const FramerWrapper = ({
       // ✅ Default fallback animation
       initial={initial ?? { opacity: 0, y: 50 }}
       whileInView={whileInView ?? { opacity: 1, y: 0 }}
-      transition={transition ?? { duration: 0.6, ease: "easeOut" ,delay:index ? 0.3*index : 0}}
+      transition={transition ?? { duration: 0.6, ease: "easeOut" ,delay:index ? 0.1*index : 0}}
       viewport={{ once: true }}
       {...motionProps}
     >

@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import Link from "next/link";
 import ImageComponent from "./ImageComponent";
+import { Mail, Phone } from "lucide-react";
 
 type Props = {};
 
@@ -59,15 +60,17 @@ const Footer = (props: Props) => {
             <Link
               target="_blank"
               href="mailto:info@scrybe.ae"
-              className="text-sm text-gray-300 mb-2 hover:underline block"
+              className="text-sm text-gray-300 mb-2 hover:underline  flex items-center gap-3"
             >
+              <Mail className=" size-4" />
               info@scrybe.ae
             </Link>
             <Link
               href="https://wa.me/+971528918909"
               target="_blank"
-              className="text-sm text-gray-300 mb-2 block hover:underline"
+              className="text-sm text-gray-300 mb-2  hover:underline flex items-center gap-3"
             >
+              <Phone  className=" size-4"/>
               +971 52 891 8909
             </Link>
           </div>
