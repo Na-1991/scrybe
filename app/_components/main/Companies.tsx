@@ -47,7 +47,7 @@ const Companies = (props: Props) => {
           industry has its voice. We help you find it."
           descriptionClass="text-sm"
         />
-  <div className="overflow-hidden relative w-full mt-4 group bg-white py-4 rounded-lg">
+  <div className="overflow-hidden relative w-full mt-4 group bg-white  rounded-lg">
   <div className="logo-marquee-track">
     <div className="flex gap-8">
       {companies.map((src, index) => (
@@ -56,7 +56,7 @@ const Companies = (props: Props) => {
           key={`loop1-${index}`}
           alt={`Company ${index}`}
           aspect="square"
-          className="h-[100px] w-auto shrink-0"
+          className="h-[75px] md:h-[100px] w-auto shrink-0"
         />
       ))}
       {companies.map((src, index) => (
@@ -65,7 +65,7 @@ const Companies = (props: Props) => {
           key={`loop2-${index}`}
           alt={`Company ${index}`}
           aspect="square"
-          className="h-[100px] w-auto shrink-0"
+          className="h-[75px] md:h-[100px] w-auto shrink-0"
         />
       ))}
     </div>
