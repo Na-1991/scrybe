@@ -43,7 +43,7 @@ const NavSheet = (props: Props) => {
   return (
     <Sheet>
     <SheetTrigger><Menu/></SheetTrigger>
-    <SheetContent>
+    <SheetContent className="bg-site text-white">
       <SheetHeader>
         <SheetTitle> </SheetTitle>
         <SheetDescription>
@@ -53,7 +53,7 @@ const NavSheet = (props: Props) => {
       </SheetHeader>
       <div className="flex flex-col">
             {links.map(link=><SheetClose className="p-3" asChild key={link.label}>
-            <Link href={link.href} className=' hover:text-site transition text-mg font-semibold'>{link.label}</Link>
+            <Link href={link.href} className=' hover:text-black transition text-mg font-semibold'>{link.label}</Link>
         </SheetClose>)}
             </div>
     </SheetContent>
