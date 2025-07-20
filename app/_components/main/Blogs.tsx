@@ -5,9 +5,10 @@ import data from "@/app/backend.json";
 import BlogCard from "../blog/BlogCard";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import FramerWrapper from "../FramerWrapper";
 
 type Props = { className?: string };
- 
+
 const Blogs = ({ className }: Props) => {
   const blogs = data.blogs;
 
@@ -19,7 +20,10 @@ const Blogs = ({ className }: Props) => {
   const thridBlog = blogs[thirdRandomNumber];
   return (
     <div>
-      <div id="blog" className={cn(className, "min-h-screen  scroll-mt-[30vh]")}>
+      <div
+        id="blog"
+        className={cn(className, "min-h-screen  scroll-mt-[30vh]")}
+      >
         <Heading
           title="Blogs"
           description="Explore ideas, trends, and best practices for digital marketing across platforms, languages, and markets"
@@ -27,7 +31,9 @@ const Blogs = ({ className }: Props) => {
         />
         <div className="mt-8">
           {[firstBlog, secondBlog, thridBlog].map((blog, index) => (
-            <BlogCard key={blog.id} blog={blog} index={index} />
+            <FramerWrapper key={blog.id} index={index}>
+              <BlogCard blog={blog} index={index} />
+            </FramerWrapper>
           ))}
         </div>
       </div>
@@ -36,7 +42,6 @@ const Blogs = ({ className }: Props) => {
         className="text-center text-xl flex items-center gap-2 mx-auto w-fit text-indigo-600 font-semibold hover:underline"
       >
         <span>See More →</span>
-        
       </Link>
     </div>
   );
