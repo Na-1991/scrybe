@@ -41,9 +41,9 @@ const NavSheet = (props: Props) => {
             },
         ]
   return (
-    <Sheet>
+    <Sheet >
     <SheetTrigger><Menu/></SheetTrigger>
-    <SheetContent className="bg-site text-white">
+    <SheetContent className="bg-site text-white border-l-0"  >
       <SheetHeader>
         <SheetTitle> </SheetTitle>
         <SheetDescription>
