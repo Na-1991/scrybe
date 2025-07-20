@@ -31,7 +31,7 @@ const NavSheet = (props: Props) => {
             },
             {
                 label:"Blogs",
-                href:'/blog',
+                href:'/#blog',
                 active:pathname.includes('blog')
             },
             {
