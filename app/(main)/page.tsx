@@ -1,3 +1,4 @@
+import { companies } from "@/lib/utils";
 import FramerWrapper from "../_components/FramerWrapper";
 import AboutUs from "../_components/main/AboutUs";
 import Blogs from "../_components/main/Blogs";
@@ -33,7 +34,12 @@ export default function Home() {
 
       <FramerWrapper>
         <div className="mt-24">
-          <Companies />
+          <Companies  companies={companies.slice(0, companies.length*0.5)} showHeader={true} slideRight={false}/>
+        </div>
+      </FramerWrapper>
+      <FramerWrapper>
+        <div className="">
+          <Companies  companies={companies.slice(companies.length*0.5, companies.length - 1)} showHeader={false} slideRight={true}/>
         </div>
       </FramerWrapper>
       <FramerWrapper>

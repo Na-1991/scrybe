@@ -16,7 +16,7 @@ export default function ServiceCard({ service }: { service: Service }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-5 hover:shadow-lg transition-all flex flex-col min-h-[420px]">
+    <div className="bg-white rounded-2xl shadow-md p-5 hover:shadow-lg transition-all flex flex-col min-h-[420px] w-full ">
       {/* Image */}
       <div className="relative w-full aspect-video mb-4 overflow-hidden rounded-xl flex items-center justify-center">
         <ImageComponent
