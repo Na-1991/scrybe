@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import data from "@/app/backend.json";
+import { BlogType } from "./_components/main/Blogs";
 
 const BASE_URL = "https://www.scrybe.ae";
 
@@ -8,17 +9,16 @@ function safeDate(input?: string | number | Date) {
   return Number.isNaN(d.getTime()) ? new Date() : d;
 }
 
+
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrls: MetadataRoute.Sitemap = (data.blogs ?? [])
-    .map((blog: any) => {
+    .map((blog: BlogType) => {
       const slug = blog.slug ?? blog.id;
       if (!slug) return null;
 
       return {
         url: `${BASE_URL}/blog/${slug}`,
-        lastModified: safeDate(
-          blog.updatedAt ?? blog.date ?? blog.createdAt
-        ),
         changeFrequency: "monthly",
         priority: 0.6,
       };

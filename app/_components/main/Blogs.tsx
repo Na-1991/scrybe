@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import FramerWrapper from "../FramerWrapper";
 
 type Props = { className?: string };
-
+export type BlogType = typeof data.blogs[0]
 const Blogs = ({ className }: Props) => {
   const blogs = data.blogs;
 
